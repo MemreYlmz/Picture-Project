@@ -8,6 +8,7 @@ function App(){
     const [images,setImages]=useState([])
     const handleChildClick = async(term)=>{
         const result = await searchİmages(term)
+        //console.log(result)
         setImages(result)
     }
 
