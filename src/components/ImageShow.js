@@ -1,6 +1,6 @@
-function ImageShow({image}){
+function ImageShow({resim}){
     return <div>
-            <img src={image.urls.small}/>
+            <img src={resim}/>
         </div>
 }
 export default ImageShow;
