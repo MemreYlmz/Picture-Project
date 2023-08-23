@@ -1,0 +1,23 @@
+.image-show{
+    padding: 10px;
+    width: 90vw;
+    height: 80vh;
+    background-size: cover;
+    overflow: hidden;
+    align-items: center;
+    background-position: center;
+    display: flex;
+    flex: 0.5;
+    transition: flex 0.5s ease-in;
+    cursor: pointer;
+    
+}
+.image-show img{
+    object-fit: cover;
+    height: 50vh;
+}
+
+.image-show.active{
+    flex: 1;
+}
+

@@ -12,8 +12,8 @@ function App(){
         setImages(result)
     }
 
-    return <div>
-        <SearchBar  onSubmit={handleChildClick}/>
+    return <div className="ana-hat">
+        <SearchBar  onay={handleChildClick}/>
         <ImageList images={images} />
     </div>
 }

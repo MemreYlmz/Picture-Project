@@ -1,0 +1,9 @@
+.search-bar{
+    border: 1px solid green;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    margin: 10px;
+    
+}
